@@ -54,7 +54,7 @@ def get_response(message):
 
 # App layout
 st.title("💙 On-Call Chatbot")
-st.markdown("**From your girlfriend** ❤️ *Tell me about your day:*")
+st.markdown("**From your Golu** ❤️ *Tell me about your day:*")
 
 # Chat history
 if "messages" not in st.session_state:
@@ -77,3 +77,4 @@ if prompt := st.chat_input("How was your day? (good/okay/tough)"):
         response = get_response(prompt)
         st.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
+
