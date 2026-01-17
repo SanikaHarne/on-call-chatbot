@@ -102,7 +102,7 @@ def add_bg_from_local(image_file):
 # --------------------------------------------------
 # ADD BACKGROUND IMAGE (IMAGE MUST BE IN SAME FOLDER)
 # --------------------------------------------------
-add_bg_from_local("background.jpeg")
+add_bg_from_local("On call motivator/background.jpeg")
 
 # --------------------------------------------------
 # CHATBOT CONTENT
@@ -206,3 +206,4 @@ if prompt := st.chat_input("How was your day? (good / okay / tough)"):
 # FLOATING STETHOSCOPE
 # --------------------------------------------------
 st.markdown('<div class="stethoscope">🩺</div>', unsafe_allow_html=True)
+
